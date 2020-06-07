@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Puni the Panda 4.1.ma
-//Last modified: Sat, Jun 06, 2020 08:25:31 PM
+//Last modified: Sat, Jun 06, 2020 08:28:50 PM
 //Codeset: UTF-8
 file -rdi 1 -ns "BaseRig" -rfn "BaseRigRN" -op "v=0;" -typ "mayaAscii" "/Users/Katie/Stuffed/StuffedGame/Assets/Maya/scenes/BaseRig.ma";
 file -r -ns "BaseRig" -dr 1 -rfn "BaseRigRN" -op "v=0;" -typ "mayaAscii" "/Users/Katie/Stuffed/StuffedGame/Assets/Maya/scenes/BaseRig.ma";
@@ -16,14 +16,14 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "425F33C5-074E-0DDA-57FF-A083BEB032D3";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 0.46390311019141173 6.9427898812251838 12.429189317743326 ;
-	setAttr ".r" -type "double3" 345.26164679015125 7561.4000000022079 7.4566509211852591e-17 ;
+	setAttr ".t" -type "double3" -13.961853390641416 14.183234259666008 3.2598595499632523 ;
+	setAttr ".r" -type "double3" 324.26164679014272 7480.6000000022814 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "77E8AA9E-234E-68FC-26D2-21B85028178A";
 	setAttr -k off ".v" no;
 	setAttr ".pze" yes;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 12.220612731623435;
+	setAttr ".coi" 17.71906399898608;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
